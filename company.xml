@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+
+<employee>
+<name>Tove</name>
+<phone>Reminder</phone>
+<adress>Don't forget me this weekend!</adress>
+<email>Jani@gmail</email>
+</employee>
+
+<employee>
+<name>Tkkk</name>
+<phone>Reminder</phone>
+<adress>Don't forget me this weekend!</adress>
+<email>Jani@gmail</email>
+</employee>
+<employee><name>Dina</name><phone>010</phone><address>Don't forget me this weekend!</address><email>Jani@gmail</email></employee></employees>
