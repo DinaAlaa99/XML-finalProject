@@ -30,7 +30,17 @@ if (isset($_POST["insert"])) {
 } elseif (isset($_POST["delete"])) {
     if (isset($_SESSION["id"])) {
         $i = $_SESSION["id"];
-        unset($xml[0]->employee[$i]);
+        if($i == (count($xml[0]->employee)-1))
+        {
+             unset($xml[0]->employee[$i]);
+             $i-=1;
+             $_SESSION["id"]=$i;
+        }
+        else
+        {
+            unset($xml[0]->employee[$i]);
+        }
+    
     } else {
         $i = 0;
         unset($xml[0]->employee[$i]);
@@ -68,8 +78,8 @@ if (isset($_POST["insert"])) {
         if ($_SESSION["id"] < count($xml[0]->employee)) {
             $i = $_SESSION["id"];
         } else {
-            $i = 0;
-            $_SESSION["id"] = 0;
+            $i = (count($xml[0]->employee))-1;
+            $_SESSION["id"] = $i;
         }
 
     } else {

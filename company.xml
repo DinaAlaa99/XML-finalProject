@@ -3,15 +3,10 @@
 
 <employee>
 <name>Dina</name>
-<phone>111111111</phone>
+<phone>01022132256</phone>
 <adress>Alex</adress>
 <email>Dina@gmail.com</email>
 </employee>
 
-<employee>
-<name>Youssef</name>
-<phone>11111111</phone>
-<adress>cairo</adress>
-<email>youssef@gmail.com</email>
-</employee>
-<employee><name>Salma</name><phone>0101111111</phone><address>alex</address><email>salma@gmail.com</email><adress>alex</adress></employee></employees>
+
+<employee><name>Dina2</name><phone>01022132256</phone><address>Alex</address><email>Dina@gmail.com</email><adress>shatby</adress></employee><employee><name>Salma</name><phone>01022132256</phone><address>shatby</address><email>Dina@gmail.com</email></employee></employees>
